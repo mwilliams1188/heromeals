@@ -9,12 +9,14 @@
   import Footer from '../components/Footer.svelte'
   import Hero from '../components/Hero.svelte'
   import Newsletter from '../components/Newsletter.svelte'
+  import Sponsors from '../components/Sponsors.svelte'
   import Tracker from '../components/Tracker.svelte'
 </script>
 
 <div>
   <Hero />
   <Tracker />
+  <Sponsors />
   <About />
   <Newsletter />
   <Footer />
