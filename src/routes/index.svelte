@@ -6,7 +6,9 @@
 
 <script>
   import About from '../components/About.svelte'
+  import Footer from '../components/Footer.svelte'
   import Hero from '../components/Hero.svelte'
+  import Newsletter from '../components/Newsletter.svelte'
   import Tracker from '../components/Tracker.svelte'
 </script>
 
@@ -14,4 +16,6 @@
   <Hero />
   <Tracker />
   <About />
+  <Newsletter />
+  <Footer />
 </div>
