@@ -2,9 +2,9 @@
 
 </script>
 
-<div class="h-full w-full bg-blue-300">
+<div class="h-screen w-screen bg-green-300">
   <div>
-
+    
   </div>
   <div>
 
