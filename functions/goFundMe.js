@@ -5,8 +5,8 @@ exports.handler = async function(event, context, callback) {
   let response = await fetch(url).then(res => res.json())
   console.log(response)
 
-  callback(null, {
+  return callback(null, {
     statusCode: 200,
-    body: response
+    body: JSON.stringify(response)
   })
 }
