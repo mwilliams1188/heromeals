@@ -1,8 +1,8 @@
 <div class="bg-gray-800">
-  <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
+  <div class="max-w-screen-xl mx-auto py-12 px-6 sm:px-10 lg:py-16 lg:px-16 lg:flex lg:items-center">
     <div class="lg:w-0 lg:flex-1">
       <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">
-        Sign up for our newsletter
+        Sign up for updates
       </h2>
       <p class="mt-3 max-w-3xl text-lg leading-6 text-gray-300">
         Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.

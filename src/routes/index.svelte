@@ -1,10 +1,13 @@
-<script context="module">
-  export function preload({ params, query }) {
-    return this.fetch("sitemap.xml")
+<!-- <script context="module">
+  export async function preload({ params, query }) {
+    let response = await this.fetch('https://hook.integromat.com/b6p8mibmv629yrxya8u374h1pn8k9nik').then(res => res.json())
+    console.log(response)
+    return { donations: response.references.counts.total_donations, raised: response.references.counts.amount_raised_unattributed}
   }
-</script>
+</script> -->
 
 <script>
+  // export let donations, raised
   import About from '../components/About.svelte'
   import Footer from '../components/Footer.svelte'
   import Hero from '../components/Hero.svelte'
@@ -15,7 +18,7 @@
 
 <div>
   <Hero />
-  <Tracker />
+  <Tracker/>
   <Sponsors />
   <About />
   <Newsletter />
