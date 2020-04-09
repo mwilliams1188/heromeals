@@ -30,9 +30,6 @@
         <p class="hidden">
           <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
         </p>
-        <p>
-          <label>Email: <input type="text" name="email" /></label>
-        </p>
         <div class="sm:col-span-2">
           <label for="first_name" class="block text-sm font-medium leading-5 text-gray-700">Name</label>
           <div class="mt-1 relative rounded-md shadow-sm">
