@@ -41,7 +41,7 @@
               </a>
             </div>
             <div class="mt-3 sm:mt-0 sm:ml-3">
-              <a href="mailto:nursesneedus@gmail.com" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-green-700 bg-green-100 hover:text-green-600 hover:bg-green-50 focus:outline-none focus:shadow-outline focus:border-green-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+              <a href="contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-green-700 bg-green-100 hover:text-green-600 hover:bg-green-50 focus:outline-none focus:shadow-outline focus:border-green-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                 Businesses
               </a>
             </div>

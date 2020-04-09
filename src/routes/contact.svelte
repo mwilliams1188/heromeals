@@ -30,7 +30,7 @@
     </div>
     <div in:fly={{ y: 50, delay: 50}} class="mt-12">
       <!-- <form netlify name="contact" action="#" method="POST" data-netlify-recaptcha="true" class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8"> -->
-      <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8">
+      <form name="contact" action="/?thankyou=true" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8">
         <p class="hidden">
           <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
         </p>
