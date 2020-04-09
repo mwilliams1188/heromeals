@@ -49,7 +49,7 @@
         </div>
         <div class="sm:col-span-2">
           <label for="email" class="block text-sm font-medium leading-5 text-gray-700">Email</label>
-          <div class="mt-1 relative rounded-md shadow-sm">
+          <div class="font-bold mt-1 relative rounded-md shadow-sm">
             <input id="email" name="email" type="email" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150" required/>
           </div>
         </div>

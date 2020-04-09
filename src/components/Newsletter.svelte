@@ -1,4 +1,4 @@
-<div class="bg-gray-800">
+<!-- <div class="bg-gray-800">
   <div class="max-w-screen-xl mx-auto py-12 px-6 sm:px-10 lg:py-16 lg:px-16 lg:flex lg:items-center">
     <div class="lg:w-0 lg:flex-1">
       <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">
@@ -19,4 +19,4 @@
       </form>
     </div>
   </div>
-</div>
+</div> -->
