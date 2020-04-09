@@ -1,5 +1,5 @@
 <script>
-  // import Nav from './components/Nav.svelte'
+  import { fly } from 'svelte/transition'
   let open = false
   let image = "https://images.unsplash.com/photo-1516841273335-e39b37888115?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
 </script>
@@ -22,7 +22,7 @@
 
     <div class="mt-8 mx-auto h-screen-xl max-w-screen-xl px-6 sm:mt-12 sm:px-10 lg:px-24 md:mt-20 xl:mt-24">
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-        <div class="text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+        <div in:fly={{ x: -100, duration: 400 }} class="text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
           <div class="text-sm font-semibold tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
             Now crowdfunding
           </div>
@@ -47,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+        <div in:fly={{ x: 100, duration: 400 }} class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
           <svg class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-8 scale-75 origin-top sm:scale-100 lg:hidden" width="640" height="784" fill="none" viewBox="0 0 640 784">
             <defs>
               <pattern id="4f4f415c-a0e9-44c2-9601-6ded5a34a13e" x="118" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
