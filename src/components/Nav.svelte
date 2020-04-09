@@ -23,7 +23,8 @@
 	</div>
 	<div class="hidden md:block text-right">
 		<span class="hidden md:inline-flex rounded-md overflow-hidden md:mr-4">
-			<a href="mailto:nursesneedus@gmail.com" class="px-4 py-2 font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Contact</a>
+			<!-- <a href="mailto:nursesneedus@gmail.com" class="px-4 py-2 font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Contact</a> -->
+			<a href="contact" class="px-4 py-2 font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Contact</a>
 		</span>
 		<span class="inline-flex rounded-md shadow-xs">
 			<a href="https://www.gofundme.com/f/support-our-nurses-during-covid19" target="_blank" class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
@@ -49,7 +50,8 @@
 				</div>
 			</div>
 			<div class="px-2 pt-2 pb-3">
-				<a href="mailto:nursesneedus@gmail.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Contact</a>
+				<!-- <a href="mailto:nursesneedus@gmail.com" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Contact</a> -->
+				<a href="contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Contact</a>
 			</div>
 			<div>
 				<a href="https://www.gofundme.com/f/support-our-nurses-during-covid19" target="_blank" class="block w-full px-5 py-3 text-center font-medium text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:bg-green-100 focus:text-green-700 transition duration-150 ease-in-out">

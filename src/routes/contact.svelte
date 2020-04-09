@@ -25,7 +25,14 @@
       </p>
     </div>
     <div class="mt-12">
-      <form netlify name="contact" action="#" method="POST" data-netlify-recaptcha="true" class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8">
+      <!-- <form netlify name="contact" action="#" method="POST" data-netlify-recaptcha="true" class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8"> -->
+      <form netlify name="contact" action="#" method="POST" netlify-honeypot="bot-field" class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8">
+        <p class="hidden">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
+        <p>
+          <label>Email: <input type="text" name="email" /></label>
+        </p>
         <div class="sm:col-span-2">
           <label for="first_name" class="block text-sm font-medium leading-5 text-gray-700">Name</label>
           <div class="mt-1 relative rounded-md shadow-sm">
@@ -63,7 +70,7 @@
             <textarea id="message" rows="4" class="form-textarea py-3 px-4 block w-full transition ease-in-out duration-150"></textarea>
           </div>
         </div>
-        <div data-netlify-recaptcha="true"></div>
+        <!-- <div data-netlify-recaptcha="true"></div> -->
         <div class="sm:col-span-2">
           <span class="w-full inline-flex rounded-md shadow-sm">
             <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:border-green-700 focus:shadow-outline-green active:bg-green-700 transition ease-in-out duration-150">
