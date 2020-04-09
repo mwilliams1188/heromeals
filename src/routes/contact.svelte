@@ -2,6 +2,10 @@
   import { fly } from 'svelte/transition'
 </script>
 
+<svelte:head>
+  <title>Contact | Meals For Nurses</title>
+</svelte:head>
+
 <div class="bg-gray-100 py-16 px-4 overflow-hidden sm:px-6 lg:px-8 lg:py-24 h-full">
   <div class="relative max-w-xl mx-auto">
     <svg class="absolute left-full transform translate-x-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404">

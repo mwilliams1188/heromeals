@@ -15,6 +15,10 @@
   import Tracker from '../components/Tracker.svelte'
 </script>
 
+<svelte:head>
+  <title>Meals For Nurses</title>
+</svelte:head>
+
 <div>
   <Hero />
   <Tracker/>
