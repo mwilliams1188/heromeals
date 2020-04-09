@@ -1,5 +1,5 @@
 <script>
-	export let segment
+	// export let segment
 	import Footer from '../components/Footer.svelte'
 	import Nav from '../components/Nav.svelte'
 	import { fade } from 'svelte/transition'
@@ -50,7 +50,7 @@
 			</div>
 		</div>
 	{/if}
-	<Nav {segment} />
+	<Nav />
 	<main class="text-gray-900">
 		<slot></slot>
 	</main>

@@ -1,18 +1,18 @@
 {
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"name": "mealsfornurses",
+	"short_name": "mealsfornurses",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
 		{
-			"src": "buildlab_blue.png",
+			"src": "buildlab-square-rounded.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "buildlab_blue.png",
+			"src": "buildlab-square-rounded.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		}
