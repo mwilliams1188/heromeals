@@ -9,9 +9,8 @@
 <script>
   // export let donations, raised
   import About from '../components/About.svelte'
-  import Footer from '../components/Footer.svelte'
   import Hero from '../components/Hero.svelte'
-  import Newsletter from '../components/Newsletter.svelte'
+  // import Newsletter from '../components/Newsletter.svelte'
   import Sponsors from '../components/Sponsors.svelte'
   import Tracker from '../components/Tracker.svelte'
 </script>
@@ -21,6 +20,5 @@
   <Tracker/>
   <Sponsors />
   <About />
-  <Newsletter />
-  <Footer />
+  <!-- <Newsletter /> -->
 </div>

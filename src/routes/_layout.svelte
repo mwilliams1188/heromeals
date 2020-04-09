@@ -1,5 +1,6 @@
 <script>
 	export let segment
+	import Footer from '../components/Footer.svelte'
 	import Nav from '../components/Nav.svelte'
 </script>
 
@@ -17,7 +18,10 @@
 	}
 </style>
 
-<Nav />
-<main class="text-gray-900">
-	<slot></slot>
-</main>
+<div class="min-h-screen">
+	<Nav {segment} />
+	<main class="text-gray-900">
+		<slot></slot>
+	</main>
+	<Footer />
+</div>

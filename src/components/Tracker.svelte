@@ -1,8 +1,13 @@
 <script>
   import { onMount } from 'svelte'
-  let donations = 20
-  let raised = 1220
-  let meals = 120
+  import Spinner from './Spinner.svelte'
+
+  let donations = 32
+  let raised = 1307
+  let meals = 45
+  const url = 'https://hook.integromat.com/b6p8mibmv629yrxya8u374h1pn8k9nik'
+  // const url = 'https://gateway.gofundme.com/web-gateway/v1/feed/support-our-nurses-during-covid19/counts'
+  // const url = 'https://us-central1-firebase-cli-buildlab.cloudfunctions.net/goFundMe'
   // let options = {
   //   headers: {
   //     'content-type': 'application/json',
@@ -11,9 +16,7 @@
   //   }
   // }
   onMount(async () => {
-    // let response = await fetch('https://gateway.gofundme.com/web-gateway/v1/feed/support-our-nurses-during-covid19/counts', { mode: 'no-cors' }).then(res => console.log(res))
-    // let response = await fetch('https://us-central1-firebase-cli-buildlab.cloudfunctions.net/goFundMe', { mode: 'cors', headers: { 'Content-Type': 'application/json' } }).then(res => console.log(res))
-    let response = await fetch('https://hook.integromat.com/b6p8mibmv629yrxya8u374h1pn8k9nik').then(res => res.json()).then(json => {
+    let response = await fetch(url).then(res => res.json()).then(json => {
       console.log(json)
       if (donations > 0) donations = json.references.counts.total_donations
       if (raised > 0) raised = json.references.counts.amount_raised_unattributed
