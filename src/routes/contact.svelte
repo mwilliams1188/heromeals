@@ -38,31 +38,31 @@
         <div class="sm:col-span-2">
           <label for="first_name" class="block text-sm font-medium leading-5 text-gray-700">Name</label>
           <div class="mt-1 relative rounded-md shadow-sm">
-            <input id="name" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150" />
+            <input id="name" name="name" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150" />
           </div>
         </div>
         <div class="sm:col-span-2">
           <label for="company" class="block text-sm font-medium leading-5 text-gray-700">Company</label>
           <div class="mt-1 relative rounded-md shadow-sm">
-            <input id="company" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150" />
+            <input id="company" name="company" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150" />
           </div>
         </div>
         <div class="sm:col-span-2">
           <label for="email" class="block text-sm font-medium leading-5 text-gray-700">Email</label>
           <div class="mt-1 relative rounded-md shadow-sm">
-            <input id="email" type="email" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150" required/>
+            <input id="email" name="email" type="email" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150" required/>
           </div>
         </div>
         <div class="sm:col-span-2">
           <label for="phone_number" class="block text-sm font-medium leading-5 text-gray-700">Phone Number</label>
           <div class="mt-1 relative rounded-md shadow-sm">
-            <input id="phone_number" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150" placeholder="+1 (555) 987-6543" />
+            <input id="phone_number" name="phone_number" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150" placeholder="+1 (555) 987-6543" />
           </div>
         </div>
         <div class="sm:col-span-2">
           <label for="message" class="block text-sm font-medium leading-5 text-gray-700">Message</label>
           <div class="mt-1 relative rounded-md shadow-sm">
-            <textarea id="message" rows="4" class="form-textarea py-3 px-4 block w-full transition ease-in-out duration-150"></textarea>
+            <textarea id="message" name="message" rows="4" class="form-textarea py-3 px-4 block w-full transition ease-in-out duration-150"></textarea>
           </div>
         </div>
         <!-- <div data-netlify-recaptcha="true"></div> -->
