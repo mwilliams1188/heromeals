@@ -3,9 +3,9 @@
   import Spinner from './Spinner.svelte'
   import { fly } from 'svelte/transition'
 
-  let donations = 32
-  let raised = 1307
-  let meals = 45
+  let donations = 44
+  let raised = 1992
+  let meals = 100
   const url = 'https://hook.integromat.com/b6p8mibmv629yrxya8u374h1pn8k9nik'
   // const url = 'https://gateway.gofundme.com/web-gateway/v1/feed/support-our-nurses-during-covid19/counts'
   // const url = 'https://us-central1-firebase-cli-buildlab.cloudfunctions.net/goFundMe'
