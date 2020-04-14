@@ -17,7 +17,7 @@
   //   }
   // }
   onMount(async () => {
-    let response = await fetch(url, { mode: 'no-cors' }).then(res => res.json()).then(json => {
+    let response = await fetch(url, { mode: 'cors' }).then(res => res.json()).then(json => {
       console.log(json)
       if (donations > 0) donations = json.references.counts.total_donations
       if (raised > 0) raised = json.references.counts.amount_raised_unattributed
