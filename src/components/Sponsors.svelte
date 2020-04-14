@@ -39,8 +39,8 @@
             </div>
           </a>
           <a  href="https://buildlab.co" target="_blank">
-            <div class="col-span-1 flex h-32 items-center justify-center py-6 px-6 bg-gray-50 hover:bg-gray-100 transition duration-150">
-              <h3 class="max-h-12 text-xl font-bold">BuildLab</h3>
+            <div class="col-span-1 flex h-32 items-center justify-center py-8 px-8 bg-gray-50 hover:bg-gray-100 transition duration-150">
+              <img class="max-h-7" src="buildlab.png" alt="BuildLab" />
             </div>
           </a>
         </div>
