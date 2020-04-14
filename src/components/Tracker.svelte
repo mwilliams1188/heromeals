@@ -6,9 +6,9 @@
   let donations = 44
   let raised = 1992
   let meals = 100
-  // const url = 'https://hook.integromat.com/b6p8mibmv629yrxya8u374h1pn8k9nik'
+  const url = 'https://hook.integromat.com/b6p8mibmv629yrxya8u374h1pn8k9nik'
   // const url = 'https://gateway.gofundme.com/web-gateway/v1/feed/support-our-nurses-during-covid19/counts'
-  const url = 'https://us-central1-firebase-cli-buildlab.cloudfunctions.net/goFundMe'
+  // const url = 'https://us-central1-firebase-cli-buildlab.cloudfunctions.net/goFundMe'
   // let options = {
   //   headers: {
   //     'content-type': 'application/json',
@@ -17,7 +17,7 @@
   //   }
   // }
   onMount(async () => {
-    let response = await fetch(url, { mode: 'cors' }).then(res => res.json()).then(json => {
+    let response = await fetch(url).then(res => res.json()).then(json => {
       console.log(json)
       if (donations > 0) donations = json.references.counts.total_donations
       if (raised > 0) raised = json.references.counts.amount_raised_unattributed
