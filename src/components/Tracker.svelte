@@ -3,8 +3,8 @@
   import Spinner from './Spinner.svelte'
   import { fly } from 'svelte/transition'
 
-  let donations = 44
-  let raised = 1992
+  let donations = 46
+  let raised = 2067
   let meals = 100
   const url = 'https://hook.integromat.com/b6p8mibmv629yrxya8u374h1pn8k9nik'
   // const url = 'https://gateway.gofundme.com/web-gateway/v1/feed/support-our-nurses-during-covid19/counts'
@@ -38,7 +38,7 @@
     </div>
     <div in:fly={{ y:50, delay: 400}} class="w-full p-8 rounded-lg shadow-lg bg-white text-center">
       <p>Meals Delivered</p>
-      <h2 class="text-4xl font-extrabold">{meals}</h2>
+      <h2 class="text-4xl font-extrabold">{meals}+</h2>
     </div>
   </div>
 </section>

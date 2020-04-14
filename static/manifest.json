@@ -7,12 +7,12 @@
 	"start_url": "/",
 	"icons": [
 		{
-			"src": "buildlab_blue.png",
+			"src": "logo_square",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "buildlab_blue.png",
+			"src": "logo_square",
 			"sizes": "512x512",
 			"type": "image/png"
 		}

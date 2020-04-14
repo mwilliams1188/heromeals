@@ -6,8 +6,8 @@
 <nav class="relative py-4 max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
 	<div class="flex items-center flex-1">
 		<div class="flex items-center justify-between w-full sm:w-auto">
-			<a href="/">
-				<span class="text-2xl font-bold">Meals For Nurses</span>
+			<a class="shadow hover:opacity-75 transition duration-150" href="/">
+				<img class="h-16 w-auto" src="logo_horizontal.png" alt="Meals For Nurses" />
 			</a>
 			<div class="-mr-2 flex items-center sm:hidden">
 				<button on:click|stopPropagation={() => isOpen = true} type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
@@ -27,7 +27,7 @@
 			<a href="contact" class="px-4 py-2 font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Contact</a>
 		</span>
 		<span class="inline-flex rounded-md shadow-xs">
-			<a href="https://www.gofundme.com/f/support-our-nurses-during-covid19" target="_blank" class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+			<a href="https://www.gofundme.com/f/support-our-nurses-during-covid19" target="_blank" class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
 				Donate
 			</a>
 		</span>
@@ -38,9 +38,9 @@
 	<div class="rounded-lg shadow-md transition transform origin-top-right">
 		<div class="rounded-lg bg-gray-50 shadow-xs overflow-hidden">
 			<div class="px-5 pt-4 flex items-center justify-between">
-				<!-- <div>
-					<img class="h-8 w-auto" src="/img/logos/workflow-mark-on-white.svg" alt="" />
-				</div> -->
+				<div>
+					<img class="h-8 w-auto" src="logo_square.png" alt="Meals For Nurses" />
+				</div>
 				<div class="-mr-2">
 					<button on:click={() => isOpen = true} type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
 						<svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -54,7 +54,7 @@
 				<a href="contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Contact</a>
 			</div>
 			<div>
-				<a href="https://www.gofundme.com/f/support-our-nurses-during-covid19" target="_blank" class="block w-full px-5 py-3 text-center font-medium text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:bg-green-100 focus:text-green-700 transition duration-150 ease-in-out">
+				<a href="https://www.gofundme.com/f/support-our-nurses-during-covid19" target="_blank" class="block w-full px-5 py-3 text-center font-medium text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:bg-blue-100 focus:text-blue-700 transition duration-150 ease-in-out">
 					Donate
 				</a>
 			</div>

@@ -1,4 +1,4 @@
-<section class="py-24 px-6 sm:px-12 lg:px-24 bg-green-400">
+<section class="py-24 px-6 sm:px-12 lg:px-24 bg-blue-400">
 <!-- data-aos="fade-up" data-aos-duration="500" data-aos-once="true" -->
   <div class="container text-lg rounded-lg shadow-lg bg-gray-200 p-12" style="max-width: 65rem;">
   <p class="my-4">

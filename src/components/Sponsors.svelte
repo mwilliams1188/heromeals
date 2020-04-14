@@ -16,7 +16,7 @@
           </p>
           <div class="mt-8 sm:flex justify-center lg:justify-start">
             <div class="rounded-md shadow">
-              <a href="contact" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+              <a href="contact" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
                 Join Us
               </a>
             </div>
