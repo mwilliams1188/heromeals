@@ -40,7 +40,7 @@
           </a>
           <a  href="https://buildlab.co" target="_blank">
             <div class="col-span-1 flex h-32 items-center justify-center py-8 px-8 bg-gray-50 hover:bg-gray-100 transition duration-150">
-              <img class="max-h-7" src="buildlab.png" alt="BuildLab" />
+              <img class="max-h-6" src="buildlab.png" alt="BuildLab" />
             </div>
           </a>
         </div>
