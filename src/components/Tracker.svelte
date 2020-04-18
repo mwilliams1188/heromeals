@@ -3,8 +3,8 @@
   // import Spinner from './Spinner.svelte'
   import { fly } from 'svelte/transition'
 
-  export let donations = 50
-  export let raised = 2467
+  export let donations = 53
+  export let raised = 3022
   let meals = 100
   const url = 'https://hook.integromat.com/b6p8mibmv629yrxya8u374h1pn8k9nik'
   const stdlib = 'https://mikewilliams.api.stdlib.com/http-project@dev/'
@@ -17,13 +17,13 @@
   //     'vary': 'Origin',
   //   }
   // }
-  // onMount(async () => {
-  //   let response = await fetch(stdlib).then(res => res.json()).then(json => {
-  //     console.log(json)
-  //     if (donations > 0) donations = json.references.counts.total_donations
-  //     if (raised > 0) raised = json.references.counts.amount_raised_unattributed
-  //   })
-  // })
+  onMount(async () => {
+    let response = await fetch(stdlib).then(res => res.json()).then(json => {
+      console.log(json)
+      if (donations > 0) donations = json.references.counts.total_donations
+      if (raised > 0) raised = json.references.counts.amount_raised_unattributed
+    })
+  })
 
 </script>
 
