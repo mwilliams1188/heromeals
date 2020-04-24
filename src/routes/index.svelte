@@ -3,7 +3,8 @@
      let json = await this.fetch(`https://mikewilliams.api.stdlib.com/http-project@dev/`).then(res => res.json())
      return {
        donations: json.references.counts.total_donations,
-       raised: json.references.counts.amount_raised_unattributed
+       raised: json.references.counts.amount_raised_unattributed,
+       meals: json.siteSettings.filter(item => item.fields.item = "Meals Delivered")[0].fields["Value"]
      }
    }
  </script>
@@ -16,7 +17,7 @@
   import Sponsors from '../components/Sponsors.svelte'
   import Tracker from '../components/Tracker.svelte'
 
-  export let raised, donations
+  export let raised, donations, meals
 </script>
 
 <svelte:head>
@@ -25,7 +26,7 @@
 
 <div>
   <Hero />
-  <Tracker {raised} {donations}/>
+  <Tracker {raised} {donations} {meals} />
   <Sponsors />
   <About />
   <!-- <Newsletter /> -->
