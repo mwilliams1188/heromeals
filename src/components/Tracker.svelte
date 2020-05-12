@@ -20,7 +20,7 @@
   onMount(async () => {
     let response = await fetch(stdlib).then(res => res.json()).then(json => {
       console.log(json)
-      if (donations > 0) donationcs = json.references.counts.total_donations
+      if (donations > 0) donations = json.references.counts.total_donations
       if (raised > 0) raised = json.references.counts.amount_raised_unattributed
       if (meals > 0) meals = json.siteSettings.filter(item => item.fields.item = "Meals Delivered")[0].fields["Value"]
     })
